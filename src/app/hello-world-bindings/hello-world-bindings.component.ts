@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
-@Component ({
+@Component({
   selector: 'hello-world-bindings',
-  templateUrl: './hello-world-bindings.component.html'
+  templateUrl: './hello-world-bindings.component.html',
 })
 export class HelloWorldBindingsComponent {
   fontColor = 'blue';
@@ -14,7 +14,6 @@ export class HelloWorldBindingsComponent {
     alert(this.message);
   }
 }
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
